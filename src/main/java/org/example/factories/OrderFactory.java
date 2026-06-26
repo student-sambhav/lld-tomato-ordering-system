@@ -6,6 +6,6 @@ import org.example.strategies.PaymentStrategy;
 import java.util.List;
 
 public interface OrderFactory {
-    Order createOrder(User user, Cart cart, Restaurant restaurant, List<MenuItem> menuItems
-    , PaymentStrategy paymentStrategy,double totalcost,String orderType);
+    Order createOrder(User user, Cart cart, Restaurant restaurant, List<MenuItem> menuItems,
+                      PaymentStrategy paymentStrategy, double totalCost, String orderType);
 }

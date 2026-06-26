@@ -4,9 +4,9 @@ package org.example.models;
 public class MenuItem {
     private String code;
     private String name;
-    private String price;
+    private int price;
 
-    public MenuItem(String code, String name, String price) {
+    public MenuItem(String code, String name, int price) {
         this.code = code;
         this.name = name;
         this.price = price;
@@ -28,11 +28,11 @@ public class MenuItem {
         this.name = name;
     }
 
-    public String getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 }

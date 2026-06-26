@@ -27,7 +27,7 @@ public class NowOrderFactory implements OrderFactory{
         order.setItems(menuItems);
         order.setPaymentStrategy(paymentStrategy);
         order.setScheduled(TimeUtils.getCurrentTime());
-        order.setTotal(totalCost);
+        order.setTotal(totalcost);
         return order;
     }
 }

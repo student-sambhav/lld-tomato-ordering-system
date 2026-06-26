@@ -62,7 +62,7 @@ public class Order {
         items = its;
         total = 0;
         for (MenuItem i : items) {
-            total += Double.parseDouble(i.getPrice());
+            total += i.getPrice();
         }
     }
 

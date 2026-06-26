@@ -20,7 +20,7 @@ public class Cart {
     public double getTotalCost(){
         double sum=0;
         for(MenuItem it:items){
-            sum+= Double.parseDouble(it.getPrice());
+            sum += it.getPrice();
         }
         return sum;
     }

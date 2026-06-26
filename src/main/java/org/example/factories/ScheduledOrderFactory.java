@@ -5,10 +5,10 @@ import org.example.strategies.PaymentStrategy;
 
 import java.util.List;
 
-public class ScheduleOrderFactory implements OrderFactory {
+public class ScheduledOrderFactory implements OrderFactory {
     private String scheduleTime;
 
-    public void ScheduledOrderFactory(String scheduleTime) {
+    public ScheduledOrderFactory(String scheduleTime) {
         this.scheduleTime = scheduleTime;
     }
 
